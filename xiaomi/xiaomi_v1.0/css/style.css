@@ -1,0 +1,132 @@
+/* 公共代码 */
+body{
+    font-size: 12px;
+    color: #333;
+}
+
+.container{
+    width: 1206px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 顶部代码 */
+.com-top{
+    height: 38px;
+    background-color: #323232;
+}
+
+.com-top .top-left{
+    color: #a2a2a2;
+    line-height: 38px;
+    display: inline;
+}
+
+.com-top .top-left a:hover{
+    color: #fff;
+    
+}
+.com-top .top-left span{
+    color: #3f3f3f;
+    display: inline-block;
+    padding: 0 3px;
+}
+
+.com-top .top-left  .download{
+    position: relative;
+    z-index: 1;
+}
+
+.com-top .top-left  .download:hover .down-box{
+    display: block;
+}
+.com-top .top-left  .download .down-box{
+    /* position: relative; */
+    height: 126px;
+    background-color: #fff;
+    position: absolute;
+    
+    left: 50%;
+    margin-left: -63px;
+    top: 7.5px;
+
+    box-shadow: rgb(170,170,170) 0px 1px 5px;
+    text-align: center;
+    cursor: pointer;
+    display: none;
+   
+}
+
+.com-top .top-left  .download .down-box .tans{
+    width: 20px;
+    height: 13px;
+    /* background-color: rgba(red, green, blue, alpha); */
+    background-image: url(../img/imgs/三角.png);
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+   /* background-repeat: no-repeat;
+   background-size: 20px 13px; */
+}
+
+/* 
+.com-top .top-left  .download .down-box .tans .tans-b{
+   
+    z-index: 10000;
+    background-color: rgba(255,255,255, 0.0) ;
+    height: 0;
+    width: 0;
+    border-width: 10px;
+   
+    border-style: dashed dashed solid dashed;
+    border-color:transparent transparent #fff transparent;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+} */
+
+.com-top .top-left  .download .down-box img{
+    width: 88px;
+    height: 88px;
+    display: block;
+    margin: 0 auto;
+    /* padding-top: 20px; */
+}
+
+.top-right .login,
+.top-right .login span,
+.userinfo{
+    color: #a2a2a2;
+    line-height: 38px;
+}
+/* .userinfo .user ul{
+    list-style: none;
+    display: none;
+}
+.userinfo .user a:hover ul{
+    display: inline;
+}
+
+.userinfo .user::after{
+    content: "";
+    display: inline;
+    overflow: hidden;
+} */
+
+.userinfo .user1{
+    margin-right: 3px;
+}
+
+.com-top .top-right span,
+.userinfo  span
+/* ,
+.com-top .usrtinfo .user  span */
+{
+    color: #3f3f3f;
+    display: inline-block;
+    padding: 0 3px;
+}
+
+.com-top .userinfo a:hover{
+    color: #fff;
+}
